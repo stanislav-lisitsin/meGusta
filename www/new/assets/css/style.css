@@ -293,7 +293,8 @@ blockquote:after { font-family: "line-icons";  position: absolute; color: #fe676
 /* Header versions */
 .plain-version .text-heading { padding-top: 15%; }
 .register-version.static-header { background: url('../img/background/smb_owner.jpg') top center no-repeat; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; min-height: 1155px; position: relative; }
-.register-version .text-heading { padding-top: 20%; }
+/*.register-version .text-heading { padding-top: 20%; }*/
+.register-version .text-heading { padding-top: 13%; }
 .video-version .text-heading { padding-top: 12%; }
 .form-version {}
 .register-version#hero .btn-primary, .register-version .submit-wrap { width:auto; }
@@ -428,7 +429,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 
 .switch.flex-active { border-bottom:1px solid #fe6760; }
 .switch p, .switch .highlight { color:#dbdbdb; }
-.switch p { padding: 12px 0px 0px 80px; font-size:12pt; }
+.switch p { padding: 12px 0px 0px 110px; font-size:12pt; }
 .switch img { line-height:70px; vertical-align:middle; }
 .flex-manual .switch.flex-active .name { color: #fe6760; }
 
@@ -490,7 +491,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 #featuredTab li > a .tab-info .tab-title { font-size: 17px; line-height: 21px; font-weight: 700; color: #fe6760; text-transform: uppercase; padding-bottom: 10px; }
 #featuredTab li > a .tab-info .tab-desc { font-size: 15px; line-height: 28px; color: #5f5f5f; font-weight: 300; display: block; }
 #featuredTab li > a .icon { font-size: 50px; padding: 21px 7px; display: block; padding: 46px 28px; }
-#featuredTab li.active { margin-top: -1px; padding-bottom: 2px; }
+/*#featuredTab li.active { margin-top: -1px; padding-bottom: 2px; }*/
 #featuredTab li.active > a .tab-info { -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px; background: #fe6760; }
 #featuredTab li.active > a .tab-icon { -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px; border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px; background: #fe6760; }
 #featuredTab li.active > a .tab-info .tab-title,
@@ -951,6 +952,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
     .social-icons li { margin-bottom: 50px; width: 16%; width: 16.2%; text-align: center; }
     
     #landing-page .static-header { min-height: 974px; }
+    #landing-page .custom.static-header { min-height: 550px; }
     #landing-page .plain-version.static-header { min-height: 700px; }
 	
     .static-header .video-container { max-width: 755px; }
@@ -977,7 +979,15 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 
 
 /*my style*/
-
+.custom-section{
+    margin-top: 30px;
+}
+.register-padding{
+    padding-top: 60px;
+}
+.custom-height-register{
+    min-height: 650px !important;
+}
 .sub-heading {
     font-size: 15px;
     line-height: 28px;

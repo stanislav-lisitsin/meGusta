@@ -66,33 +66,73 @@
     </nav>
 </header>
 
-<div id="hero" class="static-header light inverted clearfix">
-    <div class="text-heading">
-        <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0">Разработка сайтов в Киеве от <span
-                class="highlight">2499 грн</span></h1>
 
-        <p class="animated hiding" data-animation="fadeInDown" data-delay="500">Мы специализируемся на создании красивых
-            и удобных сайтов.</p>
-        <ul class="list-inline">
-            <li><a href="#" id="custom-buttom" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Заказать сайт</a></li>
-            <!--<li><a href="#" class="btn btn-default animated hiding" data-animation="bounceIn" data-delay="900">Убедите-->
-                <!--меня</a></li>-->
-        </ul>
+<div id="hero" class="custom static-header register-version light clearfix">
+
+    <div class="text-heading">
+        <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0"> <span class="highlight">Заполните форму заказа</span> и наш менеджер свяжется в течении 30 минут</h1>
+        <p class="animated hiding" data-animation="fadeInDown" data-delay="500">Не хотите ждать? Звоните нам сейчас 044 222 62 12</p>
     </div>
 
-    <!--<div class="video-wrapper">-->
-        <!--<div class="container">-->
-            <!--<div class="video-container animated hiding" data-animation="bounceInUp" data-delay="1000">-->
-                <!--<div class="embed-container">-->
-                    <!--<iframe src="http://videohive.net/item/flattify-modular-after-effects-project/embed/7827819" width="590" height="332" frameborder="0" allowfullscreen></iframe>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<img src="assets/img/features/video-container.png" alt="video" class="img-responsive animated hiding" data-animation="bounceInUp" data-delay="1000"/>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="container">
+        <div class="signup-wrapper animated hiding" data-animation="bounceInUp" data-delay="0">
+            <div class="row">
+                <form class="form-inline form-register form-register-small" method="post" action="signup.php">
+
+                    <div class="form-group">
+                        <input size="30" type="text" class="form-control required" name="fullname" id="fullname" placeholder="Ваше имя">
+                    </div>
+
+                    <div class="form-group">
+                        <input size="30" type="email" class="form-control required email" name="email" id="email" placeholder="Ваш e-mail">
+                    </div>
+                    <div class="form-group password-wrapper">
+                        <input size="30" type="text" class="form-control required" name="phone_number" id="phone_number" placeholder="Ваш контактный номер телефона">
+                    </div>
+                    <div class="form-group submit-wrap">
+                        <input type="hidden" name="small-form"/>
+                        <button type="submit" class="btn btn-primary btn-md">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </div>
 
+<div class="tab-pane" id="third-tab-alt">
+    <div class="section-header animated hiding center" data-animation="fadeInDown">
+        <h2>Как мы работаем</h2>
+        <div class="sub-heading">Всего 3 простых шага</div>
+    </div>
+    <div class="section-content row custom-section">
+        <div class="col-sm-4">
+            <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="0">
+                <i class="howitworks icon icon-active">1</i>
+                <span class="h7">Вы заказываете сайт</span>
+                <p class="thin" >Мы разрабатываем прототип вашего сайта и утверждаем его.</p>
+            </article>
+            <!--<span class="icon icon-arrows-04"></span>-->
+        </div>
+        <div class="col-sm-4">
+            <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="400">
+                <i class="howitworks icon icon-active">2</i>
+                <span class="h7">Мы разрабатываем сайт</span>
+                <p class="thin" >Вы контролируете все этапы разработки.</p>
+            </article>
+            <!--<span class="icon icon-arrows-04"></span>-->
+        </div>
+        <div class="col-sm-4">
+            <article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="800">
+                <i class="howitworks icon icon-active">3</i>
+                <span class="h7">Мы запускаем сайт</span>
+                <p class="thin" >Ваш проект запущен + 1 довольный клиент.</p>
+            </article>
+        </div>
+    </div>
+    <br/>
+
+</div>
 
 <a id="showHere"></a>
 
@@ -107,7 +147,10 @@
                 <br/><br/>
                 <article>
                     <h3><span class="highlight">Индивидуальный</span> дизайн</h3>
-                    <p>Мы разрабатываем корпоративные сайты с уникальным и 100% адаптивным дизайном для идеального отображения на iPhone, iPad и других устройствах. Мы выполняем проекты любого уровня сложности и применяем наш уникальный опыт для решения Ваших бизнес задач.</p>
+
+                    <p>Мы знаем, что Ваши посетители хотят видеть качественный дизайн и максимум полезной информации. Мы
+                        решаем задачи Вашего бизнеса и применяем эксклюзивный и адаптивный дизайн для просмотра вашего
+                        сайта на любом современном мобильном устройстве.</p>
                 </article>
             </div>
 
@@ -120,7 +163,10 @@
                 <br/><br/>
                 <article>
                     <h3><span class="highlight">Удобная</span> система управления</h3>
-                    <p>Вы хотите управлять сайтом своей компании? Мы работаем с самыми популярными CMS системами – Wordpress и 1C-Bitrix, которые позволят вам с легкостью создавать новые материалы, новости, редактировать разделы, фото и видео всего в несколько кликов.</p>
+
+                    <p>Мы работаем с самыми популярными системами управления, Wordpress, 1C-Bitrix. Управлять нашими
+                        сайтами действительно просто и удобно. Наполнение сайта больше не будет для Вас рутиной,
+                        добавляйте новости, фотографии, галереи, и любую другую информацию в несколько кликов.</p>
                 </article>
             </div>
 
@@ -132,8 +178,13 @@
             <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
                 <br/><br/>
                 <article>
-                    <h3><span class="highlight">Качественное</span> SEO продвижение</h3
-                    <p>Вашу страницу с легкостью найдут Ваши клиенты! Каждый Web сайт, который мы разрабатываем, включает в себя SEO модуль. Мы оптимизируем материалы вашего сайта под стандарты поисковых систем Goolge и Yandex. </p>
+                    <h3><span class="highlight">Качественное</span> SEO продвижение</h3>
+
+                    <!--<div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br/> sdfs sit atmet sit-->
+                    <!--dolor greand fdanrh sdfs-->
+                    <!--</div>-->
+                    <p>Каждый проект, разработанный в нашей веб-студии, включает все необходимое для раскрутки сайта в
+                        Интернет, благодаря внедрению всех современных требований и стандартов поисковых систем. </p>
                 </article>
             </div>
 
@@ -146,9 +197,25 @@
                 <br/><br/>
                 <article>
                     <h3><span class="highlight">Бесплатная</span> поддержка</h3>
-                    <p>Наши специалисты предоставляют техническую помощь в обслуживании и обновлении сайта, а также обучить Вас и Ваших сотрудников полноценно управлять сайтом вашей компании. Мы ответим на все ваши вопросы – Звоните!</p>
+                    <p>Наши специалисты всегда готовы оказать любую техническую помощь в обслуживании и обновлении
+                        сайта, а также обучить Вас и Ваших сотрудников полноценно управлять сайтом. Вместе с нами,
+                        поддерживать сайт одно удовольствие!</p>
                 </article>
             </div>
+        </div>
+    </div>
+</section>
+
+<section id="longblock2" class="light long-block">
+    <div class="container">
+        <div class="col-md-8 col-lg-9">
+            <article class="pull-left">
+                <h2><strong>044 222 62 12 &nbsp;&nbsp;&nbsp;</strong> Звоните прямо сейчас!</h2>
+                <p class="thin" style="float: right;margin-right: 10px;">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
+            </article>
+        </div>
+        <div class="col-md-4 col-lg-3">
+            <a href="#" class="btn btn-default">Отправить запрос</a>
         </div>
     </div>
 </section>
@@ -385,65 +452,65 @@
 </section>
 
 <footer id="footer" class="footer inverted">
-    <div class="container">
-        <div class="footer-content row">
-            <div class="col-sm-4">
-                <div class="logo-wrapper">
-                    <img src="assets/img/logo-inverted@2x.png" alt="logo" width="215"/>
+        <div class="container">
+            <div class="footer-content row">
+                <div class="col-sm-4">
+                    <div class="logo-wrapper">
+                        <img src="assets/img/logo-inverted@2x.png" alt="logo" width="215"/>
+                    </div>
+                    <p>Качественный дизайн. <br/>Домен и хостинг в подарок.<br/> Готовность к SEO продвижению.</p>
+
                 </div>
-                <p>Качественный дизайн. <br/>Домен и хостинг в подарок.<br/> Готовность к SEO продвижению.</p>
+                <div class="col-sm-4 social-wrap">
+                    <ul class="list-inline socials">
+                        <li><a href="https://www.facebook.com/pages/Chasebe/1464663707111142?ref=hl&ref_type=bookmark" target="_blank"><span class="icon icon-socialmedia-08"></span></a></li>
+                        <li><a href="#"><span class="icon icon-socialmedia-05"></span></a></li>
+                        <li><a href="#"><span class="icon icon-socialmedia-29"></span></a></li>
+                    </ul>
 
-            </div>
-            <div class="col-sm-4 social-wrap">
-                <ul class="list-inline socials">
-                    <li><a href="https://www.facebook.com/pages/Chasebe/1464663707111142?focus_composer=true&ref_type=bookmark" target="_blank"><span class="icon icon-socialmedia-08"></span></a></li>
-                    <li><a href="http://www.linkedin.com/company/3785755?trk=tyah&trkInfo=tarId%3A1404823403732%2Ctas%3Achasebe%2Cidx%3A1-1-1" target="_blank"><span class="icon icon-socialmedia-05"></span></a></li>
-                    <!--<li><a href="#" target="_blank"><span class="icon icon-socialmedia-29"></span></a></li>-->
-                </ul>
-
-            </div>
-            <div class="col-sm-4">
-                <ul class="list-unstyled">
-                    <li>
-                        <span class="icon icon-chat-messages-14"></span>
-                        <a href="mailto:info@megusta.com.ua">info@megusta.com.ua</a>
-                    </li>
-                    <li>
-                        <span class="icon icon-seo-icons-34"></span>
-                        Украина, г. Киев, Соломенская пл. 2, офис 508
-                    </li>
-                    <li>
-                        <span class="icon icon-seo-icons-17"></span>
-                        <h4>(044) 222-62-12</h4>
-                    </li>
-                </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="icon icon-chat-messages-14"></span>
+                            <a href="mailto:info@megusta.com.ua">info@megusta.com.ua</a>
+                        </li>
+                        <li>
+                            <span class="icon icon-seo-icons-34"></span>
+                            Украина, г. Киев, Соломенская пл. 2, офис 508
+                        </li>
+                        <li>
+                            <span class="icon icon-seo-icons-17"></span>
+                            <h4>(044) 222-62-12</h4>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="copyright">MeGusta.com.ua 2014. All rights reserved.</div>
-</footer>
+        <div class="copyright">MeGusta.com.ua 2014. All rights reserved.</div>
+    </footer>
 
-<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+    <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
-<![endif]-->
-<!--[if (gte IE 9) | (!IE)]><!-->
-<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
-<!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
+    <![endif]-->
+    <!--[if (gte IE 9) | (!IE)]><!-->
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
+    <!--<![endif]-->
 
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.nav.js"></script>
-<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
-<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
-<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
-<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
-<script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
-<script type="text/javascript" src="assets/js/toastr.min.js"></script>
-<script type="text/javascript" src="assets/js/headhesive.min.js"></script>
-<script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
-<script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.nav.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="assets/js/toastr.min.js"></script>
+    <script type="text/javascript" src="assets/js/headhesive.min.js"></script>
+    <script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>
 </html>
