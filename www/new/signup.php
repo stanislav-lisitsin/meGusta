@@ -1,6 +1,6 @@
 <?php
 
-$to = "stanislav.mikhailovich@mail.ru";
+$to = "info@megusta.com.ua";
 
 //if (!isset($_POST['small-form'])){
 //	$subject = "Заявка на разработку сайта";

@@ -25,6 +25,23 @@
     <script src="assets/js/html5.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-51063712-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body id="static-page">
@@ -50,12 +67,12 @@
                         <li><a href="about.html">Мы</a></li>
                         <li><a href="services.html">Услуги</a></li>
                         <li><a href="prices.html">Цены</a></li>
-                        <li><a href="portfolio.html">Портфолио</a></li>
+                        <li><a href="works.html">Портфолио</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
-                        <li><a href="tel:+380(44)222-62-12">тел: (044) 222-62-12</a></li>
-                        <li class="featured"><a href="order.html">Заказать</a></li>
+                        <li><a href="tel:+380(44)222-62-12" class="phone-in-heder" >тел: (044) 222-62-12</a></li>
+                        <li class="featured"><a href="order.html"  onclick="_gaq.push(['_trackEvent', 'click', 'header', 'zakazat']);">Заказать</a></li>
                     </ul>
                 </div>
             </div>
@@ -86,7 +103,7 @@
                 <tr>
                     <td>Сайт визитка</td>
                     <td>10 рабочих дней</td>
-                    <td><strong>от 4000 грн.</strong></td>
+                    <td><strong>4000 грн.</strong></td>
                 </tr>
                 <tr>
                     <td>Корпоративный сайт</td>
@@ -156,30 +173,30 @@
 
         <div class="col-md-3 col-sm-6 col-xs-12">
             <article class="center">
-                <i class="icon icon-seo-icons-38 icon-active"></i>
+                <i class="icon icon-office-22 icon-active"></i>
                 <span class="h7">Аудит интерфейса (UXD аудит)</span>
-                <p class="thin">Augue duis aliquet, facilisis, proin non eros rhoncus dictumst aliquam ultrices? Nunc? Etiam, pulvinar adipiscing, nascetur tincidunt amet tortor tempor nec, magna p. </p>
+                <p class="thin">У Вас есть сайт, но нет клиентов? Такое бывает, особенно если сайт сделан без учета юзабилити. Мы проводим аудит интерфейса и переделываем страницу для максимального удобства посетителей. </p>
             </article>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <article class="center">
-                <i class="icon icon-badges-votes-01 icon-active"></i>
+                <i class="icon icon-office-37 icon-active"></i>
                 <span class="h7">Создание контента (фото видео текст)</span>
-                <p class="thin">Augue duis aliquet, facilisis, proin non eros rhoncus dictumst aliquam ultrices? Nunc? Etiam, pulvinar adipiscing, nascetur tincidunt amet tortor tempor nec, magna p </p>
+                <p class="thin">Хороший сайт это еще не все. Мы создаем фото и видео контент, пишем тексты и оптимизируем их. </p>
             </article>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <article class="center">
-                <i class="icon icon-seo-icons-27 icon-active"></i>
+                <i class="icon icon-documents-bookmarks-09  icon-active"></i>
                 <span class="h7">Разработка прототипов и технических заданий</span>
-                <p class="thin">Augue duis aliquet, facilisis, proin non eros rhoncus dictumst aliquam ultrices? Nunc? Etiam, pulvinar adipiscing, nascetur tincidunt amet tortor tempor nec, magna p </p>
+                <p class="thin">У Вас сложный большой проект? Мы составляет технические задание на разработку, в котором описываем задание на разработку всех элементов проекта. </p>
             </article>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <article class="center">
-                <i class="icon icon-office-15 icon-active"></i>
+                <i class="icon icon-multimedia-17 icon-active"></i>
                 <span class="h7">Обучение CMS Wordpress</span>
-                <p class="thin">Augue duis aliquet, facilisis, proin non eros rhoncus dictumst aliquam ultrices? Nunc? Etiam, pulvinar adipiscing, nascetur tincidunt amet tortor tempor nec, magna p </p>
+                <p class="thin">Мы научим Вас и вашу команду использовать все возможности CMS Wordpress и полноценно управлять Вашим сайтом.</p>
             </article>
         </div>
 
@@ -197,7 +214,7 @@
             </article>
         </div>
         <div class="col-md-4 col-lg-3">
-            <a href="#" class="btn btn-default">Отправить запрос</a>
+            <a href="order.html" class="btn btn-default" onclick="_gaq.push(['_trackEvent', 'click', 'footer', 'send-request']);">Отправить запрос</a>
         </div>
     </div>
 </section>
@@ -233,7 +250,7 @@
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-17"></span>
-                        <h4>(044) 222-62-12</h4>
+                        <h5>(044) 222-62-12</h5>
                     </li>
                 </ul>
             </div>
@@ -265,5 +282,46 @@
 <script type="text/javascript" src="assets/js/headhesive.min.js"></script>
 <script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
 <script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+<!-- Yandex.Metrika counter -->
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter25017257 = new Ya.Metrika({id: 25017257,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    trackHash: true});
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+
+</script>
+
+<noscript>
+    <div><img src="//mc.yandex.ru/watch/25017257" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
 </body>
-</html>    
+</html>

@@ -113,7 +113,7 @@ article { text-align: left; }
 .navigation-brand .brand-logo  { width:215px; height:50px; }
 .navigation-brand .brand-logo .logo { display:block; height: 30px; background:url(../img/logo.png) center center no-repeat; }
 .fixmenu-clone .brand-logo .logo { background:url(../img/logo-inverted.png) center center no-repeat; }
-@media (-webkit-min-device-pixel-ratio: 2), 
+@media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) { 
 
     .navigation-brand .brand-logo .logo {
@@ -406,7 +406,8 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 #steps .col-sm-4 .icon { position: absolute; font-size: 50px; top: 10px; right: 0; margin-right: -25px; color: #DDDDDD; } 
 
 #about  { padding:60px 0px 0px 0px;}
-#process  { padding:20px 0px 90px 0px;}
+/*#process  { padding:20px 0px 90px 0px;}*/
+#process  { padding: 20px 0px 40px 0px;}
 .howitworks { font-size:81px; vertical-align: middle; }
 
 #feedback {  -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; overflow: hidden; padding: 20px 0px 0px 0px; }
@@ -424,12 +425,12 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 .flex-manual .switch.flex-active .highlight, .flex-manual .switch:hover .highlight { opacity:1; cursor: pointer; cursor: hand;  color:#fe6760; }
 .flex-manual .switch.flex-active  p, .flex-manual .switch:hover p { opacity:1; cursor: pointer; cursor: hand;  color:#525252; }
 
-.flex-manual, .flex-manual  .switch { height:120px; }
+.flex-manual, .flex-manual  .switch { height: 130px; }
 .flex-manual  { margin-top: 15px; }
 
 .switch.flex-active { border-bottom:1px solid #fe6760; }
 .switch p, .switch .highlight { color:#dbdbdb; }
-.switch p { padding: 12px 0px 0px 110px; font-size:12pt; }
+.switch p { padding: 12px 0 0 115px; font-size:13px; }
 .switch img { line-height:70px; vertical-align:middle; }
 .flex-manual .switch.flex-active .name { color: #fe6760; }
 
@@ -846,7 +847,10 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 	.alt.tab-content .tab-pane { padding-bottom: 20px; }
 	
     #landing-page .static-header h1 { font-size: 48px; }
-    #landing-page .static-header { min-height: 775px; }
+    #landing-page .static-header { min-height: 450px; }
+    #landing-page .phone-in-heder { font-size: 20px !important; }
+    #static-page .phone-in-heder { font-size: 20px !important; }
+    /*#landing-page .static-header { min-height: 775px; }*/
     .static-header .video-container { max-width: 442px; }
     
     #featuredTab { margin-top: 0; }
@@ -874,6 +878,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 	
 	#guarantee h2, #guarantee p { text-align: center; }
 
+    .switch p {padding: 12px 0 0 115px;font-size: 13px;}
 }
 
 /* Tablet device Portrait 1024px and 768px */
@@ -914,8 +919,9 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
     #sc-longblock article { width: 80%; }
     .alt.tab-content .tab-pane { padding-bottom: 25px; }
     .alt.tab-content .tab-pane .btn { margin-top:-15px; margin-right:15px;}
-    #landing-page .static-header { min-height: 800px; }
-	
+    #landing-page .static-header { min-height: 450px; }
+    /*#landing-page .static-header { min-height: 800px; }*/
+    #landing-page .phone-in-heder { font-size: 20px !important; }
 	#clients ul.list-inline li { padding-left: 15px; padding-right: 15px; }
 	
 	#response { margin-left: 40%; }
@@ -951,7 +957,8 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
     .social-icons { margin-top: 25px; }
     .social-icons li { margin-bottom: 50px; width: 16%; width: 16.2%; text-align: center; }
     
-    #landing-page .static-header { min-height: 974px; }
+    /*#landing-page .static-/header { min-height: 974px; }*/
+    #landing-page .static-header { min-height: 450px; }
     #landing-page .custom.static-header { min-height: 550px; }
     #landing-page .plain-version.static-header { min-height: 700px; }
 	
@@ -1012,5 +1019,13 @@ blockquote {
 .phone-in-heder{
     font-size: x-large !important;
     /*color: #ff0000 !important;*/
+}
+.phone-in-footer{
+    font-size: 25px;
+}
+
+.order-custom{
+    float: right;
+    margin-right: 10px;
 }
 /*my style*/

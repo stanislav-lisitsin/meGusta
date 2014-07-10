@@ -130,10 +130,10 @@
     if( $('.form-register').length ) {
       $('.form-register').validate({
         rules: {
-            phone_number:{
-                required: true,
-                digits: true
-            }
+//            phone_number:{
+//                required: true,
+//                digits: true
+//            }
 //          password: {
 //            minlength: 5
 //          },
@@ -141,7 +141,10 @@
 //            minlength: 5,
 //            equalTo: "#password"
 //          }
-
+            email: {
+                required: true,
+                email: true
+            }
         },
         messages: {
           fullname: "Пожалуйста введите свое имя",
@@ -154,7 +157,11 @@
 //            minlength: "Your password must be at least 5 characters long",
 //            equalTo: "Please enter the same password as above"
 //          },
-          email: "Пожалуйста введите корректный адрес",
+//
+            email: {
+                required: "Пожалуйста введите e-mail",
+                email: "Пожалуйста введите корректный адрес"
+            },
           phone_number:"Пожалуйста введите ваш телефон"
         },      
         submitHandler: function(form) {

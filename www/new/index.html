@@ -6,9 +6,9 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>Разработка и создание веб сайтов в Киеве недорого – megusta.com.ua</title>
-    <meta name="description" content="Закажи разработку сайтов с удобной CMS по доступной цене.">
-    <meta name="keywords" content="разработка, создание, сайта, стоимость, недорого, Киев">
+    <title>Стоимость создания и разработки web сайтов в Киеве – megusta.com.ua</title>
+    <meta name="description" content="Web сайт недорого! Доступные цены на разработку сайта в Киеве. Поддержка и хостинг в подарок!">
+    <meta name="keywords" content="стоимость, разработка, создание, сайта, web сайтов, цена, киев">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
@@ -25,6 +25,24 @@
     <script src="assets/js/html5.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-51063712-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body id="landing-page">
@@ -40,6 +58,12 @@
             <div class="navigation-brand">
                 <div class="brand-logo">
                     <a href="index.html" class="logo"></a>
+                    <!--<div class="logo-wrapper">-->
+                        <!--<a href="index.html" >-->
+                            <!--<img src="assets/img/logo.png" alt="logo"/>-->
+                            <!--<img src="assets/img/logo-inverted.png" alt="logo"/>-->
+                        <!--</a>-->
+                    <!--</div>-->
                     <span class="sr-only">Веб-студия Me Gusta</span>
                 </div>
                 <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown"
@@ -54,12 +78,12 @@
                     <li><a href="about.html">Мы</a></li>
                     <li><a href="services.html">Услуги</a></li>
                     <li><a href="prices.html">Цены</a></li>
-                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="works.html">Портфолио</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
                 <ul class="navigation-bar navigation-bar-right">
                     <li><a href="tel:+380(44)222-62-12" class="phone-in-heder" >тел: (044) 222-62-12</a></li>
-                    <li class="featured"><a href="order.html">Заказать</a></li>
+                    <li class="featured"><a href="order.html" onclick="_gaq.push(['_trackEvent', 'click', 'header', 'zakazat']);">Заказать</a></li>
                 </ul>
             </div>
         </div>
@@ -68,13 +92,11 @@
 
 <div id="hero" class="static-header light inverted clearfix">
     <div class="text-heading">
-        <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0">Разработка сайтов в Киеве от <span
-                class="highlight">2499 грн</span></h1>
+        <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0">Создание сайтов в Киеве по цене от <span class="highlight">2499 грн.</span></h1>
 
-        <p class="animated hiding" data-animation="fadeInDown" data-delay="500">Мы специализируемся на создании красивых
-            и удобных сайтов.</p>
+        <p class="animated hiding" data-animation="fadeInDown" data-delay="500">Мы специализируемся на создании красивых и удобных сайтов.</p>
         <ul class="list-inline">
-            <li><a href="#" id="custom-buttom" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Заказать сайт</a></li>
+            <li><a href="order.html" onclick="_gaq.push(['_trackEvent', 'click', 'body', 'zakazat-site']);" id="custom-buttom" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Заказать сайт</a></li>
             <!--<li><a href="#" class="btn btn-default animated hiding" data-animation="bounceIn" data-delay="900">Убедите-->
                 <!--меня</a></li>-->
         </ul>
@@ -101,10 +123,10 @@
         <div class="section-content row">
             <h2><span class="highlight"> В чем главное </span> отличие наших сайтов</h2>
             <div class="col-sm-6" data-animation="">
-                <img src="img/near-the-sea-crop.png" class="img-responsive" alt="process 3"/>
+                <img src="img/near-the-sea-new.png" class="img-responsive" alt="process 3"/>
             </div>
             <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                <br/><br/>
+                <!--<br/><br/>-->
                 <article>
                     <h3><span class="highlight">Индивидуальный</span> дизайн</h3>
                     <p>Мы разрабатываем корпоративные сайты с уникальным и 100% адаптивным дизайном для идеального отображения на iPhone, iPad и других устройствах. Мы выполняем проекты любого уровня сложности и применяем наш уникальный опыт для решения Ваших бизнес задач.</p>
@@ -114,10 +136,10 @@
             <hr class="clearfix"/>
 
             <div class="col-sm-6 pull-right" data-animation="">
-                <img src="img/mac3-crop.png" class="img-responsive" alt="process 2"/>
+                <img src="img/mac3new.png" class="img-responsive" alt="process 2"/>
             </div>
             <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                <br/><br/>
+                <!--<br/><br/>-->
                 <article>
                     <h3><span class="highlight">Удобная</span> система управления</h3>
                     <p>Вы хотите управлять сайтом своей компании? Мы работаем с самыми популярными CMS системами – Wordpress и 1C-Bitrix, которые позволят вам с легкостью создавать новые материалы, новости, редактировать разделы, фото и видео всего в несколько кликов.</p>
@@ -127,12 +149,12 @@
             <hr class="clearfix"/>
 
             <div class="col-sm-6" data-animation="">
-                <img src="assets/img/features/feature-3.png" class="img-responsive" alt="process 3"/>
+                <img src="img/seo.png" class="img-responsive" alt="process 3"/>
             </div>
             <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                <br/><br/>
+                <!--<br/><br/>-->
                 <article>
-                    <h3><span class="highlight">Качественное</span> SEO продвижение</h3
+                    <h3><span class="highlight">Качественное</span> SEO продвижение</h3>
                     <p>Вашу страницу с легкостью найдут Ваши клиенты! Каждый Web сайт, который мы разрабатываем, включает в себя SEO модуль. Мы оптимизируем материалы вашего сайта под стандарты поисковых систем Goolge и Yandex. </p>
                 </article>
             </div>
@@ -140,10 +162,10 @@
             <hr class="clearfix"/>
 
             <div class="col-sm-6 pull-right" data-animation="">
-                <img src="assets/img/features/feature-4.png" class="img-responsive" alt="process 2"/>
+                <img src="img/support-free-new.png" class="img-responsive" alt="process 2"/>
             </div>
             <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                <br/><br/>
+                <!--<br/><br/>-->
                 <article>
                     <h3><span class="highlight">Бесплатная</span> поддержка</h3>
                     <p>Наши специалисты предоставляют техническую помощь в обслуживании и обновлении сайта, а также обучить Вас и Ваших сотрудников полноценно управлять сайтом вашей компании. Мы ответим на все ваши вопросы – Звоните!</p>
@@ -311,9 +333,9 @@
                     <div class="switch flex-active">
                         <img alt="client" src="img/olga-gurkina.jpg" class="sm-pic img-circle pull-left" width="100" height="100">
                         <p>
-                            <span class="highlight">
-                                <span style="font-size:18px">Ольга Гуркина</span>
-                            </span>
+
+                                <span class="highlight">Ольга Гуркина</span>
+
                             <br>
                             <span style="font-size:12px">
                                 <span style="color:#262626">
@@ -371,15 +393,23 @@
 </section>
 
 <section id="longblock" class="light long-block">
+
     <div class="container">
         <div class="col-md-8 col-lg-9">
             <article class="pull-left">
                 <h2><strong>044 222 62 12 &nbsp;&nbsp;&nbsp;</strong> Звоните прямо сейчас!</h2>
-                <p class="thin" style="float: right;margin-right: 10px;">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
+                <!--<span style="color: green;">044 222 62 12 </span>-->
+                <!--<span>Звоните прямо сейчас!</span>-->
+                <p class="thin order-custom">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
             </article>
+            <!--<article class="pull-left">-->
+                <!--<div class = "phonenew">044 222 62 12</div>-->
+                <!--<h2>Звоните прямо сейчас!</h2>-->
+                <!--<p class="thin">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>-->
+            <!--</article>-->
         </div>
         <div class="col-md-4 col-lg-3">
-            <a href="#" class="btn btn-default">Отправить запрос</a>
+            <a href="order.html" class="btn btn-default" onclick="_gaq.push(['_trackEvent', 'click', 'footer', 'send-request']);">Отправить запрос</a>
         </div>
     </div>
 </section>
@@ -406,7 +436,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <span class="icon icon-chat-messages-14"></span>
-                        <a href="mailto:info@megusta.com.ua">info@megusta.com.ua</a>
+                        <a href="mailto:info@megusta.com.ua" onclick="_gaq.push(['_trackEvent', 'e-mail', 'footer',]);">info@megusta.com.ua</a>
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-34"></span>
@@ -414,7 +444,7 @@
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-17"></span>
-                        <h4>(044) 222-62-12</h4>
+                        <h5>(044) 222-62-12</h5>
                     </li>
                 </ul>
             </div>
@@ -445,5 +475,46 @@
 <script type="text/javascript" src="assets/js/headhesive.min.js"></script>
 <script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
 <script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+<!-- Yandex.Metrika counter -->
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter25017257 = new Ya.Metrika({id: 25017257,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    trackHash: true});
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+
+</script>
+
+<noscript>
+    <div><img src="//mc.yandex.ru/watch/25017257" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
 </body>
 </html>

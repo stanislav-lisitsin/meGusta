@@ -25,6 +25,23 @@
     <script src="assets/js/html5.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-51063712-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body id="landing-page">
@@ -54,7 +71,7 @@
                     <li><a href="about.html">Мы</a></li>
                     <li><a href="services.html">Услуги</a></li>
                     <li><a href="prices.html">Цены</a></li>
-                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="works.html">Портфолио</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
                 <ul class="navigation-bar navigation-bar-right">
@@ -135,7 +152,7 @@
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-17"></span>
-                        <h4>(044) 222-62-12</h4>
+                        <h5>(044) 222-62-12</h5>
                     </li>
                 </ul>
             </div>
@@ -166,5 +183,46 @@
 <script type="text/javascript" src="assets/js/headhesive.min.js"></script>
 <script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
 <script type="text/javascript" src="assets/js/scripts.js"></script>
+
+
+<!-- Yandex.Metrika counter -->
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter25017257 = new Ya.Metrika({id: 25017257,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    trackHash: true});
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+
+</script>
+
+<noscript>
+    <div><img src="//mc.yandex.ru/watch/25017257" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
 </body>
 </html>
