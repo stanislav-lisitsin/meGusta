@@ -83,7 +83,7 @@
                 </ul>
                 <ul class="navigation-bar navigation-bar-right">
                     <li><a href="tel:+380(44)222-62-12" class="phone-in-heder" >тел: (044) 222-62-12</a></li>
-                    <li class="featured"><a href="order.html" onclick="_gaq.push(['_trackEvent', 'click', 'header', 'zakazat']);">Заказать</a></li>
+                    <li class="featured"><a href="order.html" onclick="ga('send', 'event', 'click', 'header', 'zakazat', {'nonInteraction': 1});">Заказать</a></li>
                 </ul>
             </div>
         </div>
@@ -96,7 +96,7 @@
 
         <p class="animated hiding" data-animation="fadeInDown" data-delay="500">Мы специализируемся на создании красивых и удобных сайтов.</p>
         <ul class="list-inline">
-            <li><a href="order.html" onclick="_gaq.push(['_trackEvent', 'click', 'body', 'zakazat-site']);" id="custom-buttom" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Заказать сайт</a></li>
+            <li><a href="order.html" id="custom-buttom" class="btn btn-secondary animated bounceIn visible" data-animation="bounceIn" data-delay="700" onclick="ga('send', 'event', 'click', 'body', 'zakazat-site', {'nonInteraction': 1});">Заказать сайт</a></li>
             <!--<li><a href="#" class="btn btn-default animated hiding" data-animation="bounceIn" data-delay="900">Убедите-->
                 <!--меня</a></li>-->
         </ul>
@@ -258,14 +258,14 @@
             <article class="center">
                 <i class="icon icon-badges-votes-01 icon-active"></i>
                 <span class="h7">Гарантия качества</span>
-                <p class="thin">Наши специалисты имеют более 15 лет опыта в создании сайтов-визиток, корпоративных сайтов, порталов и интернет-магазинов. </p>
+                <p class="thin">Наши специалисты имеют более 15 лет опыта в разработке сайтов различной степени сложности! Мы умеем решать трудные задачи и создавать любые интернет проекты. </p>
             </article>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <article class="center">
                 <i class="icon icon-seo-icons-27 icon-active"></i>
                 <span class="h7">Опыт</span>
-                <p class="thin">Мы создаем сайты по доступным ценам. Мы предлагаем клиентам только то, что им действительно необохидо. </p>
+                <p class="thin">Мы создаем сайты по доступным ценам и всегда гарантируем высокое качество работы. Мы не используем отпугивающие шаблоны и консультируем клиентов по всем необходимым вопросам.</p>
             </article>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -392,27 +392,20 @@
     </div>
 </section>
 
+
 <section id="longblock" class="light long-block">
 
     <div class="container">
-        <div class="col-md-8 col-lg-9">
-            <article class="pull-left">
-                <h2><strong>044 222 62 12 &nbsp;&nbsp;&nbsp;</strong> Звоните прямо сейчас!</h2>
-                <!--<span style="color: green;">044 222 62 12 </span>-->
-                <!--<span>Звоните прямо сейчас!</span>-->
-                <p class="thin order-custom">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
-            </article>
-            <!--<article class="pull-left">-->
-                <!--<div class = "phonenew">044 222 62 12</div>-->
-                <!--<h2>Звоните прямо сейчас!</h2>-->
-                <!--<p class="thin">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>-->
-            <!--</article>-->
+        <div class="col-md-12 col-lg-9">
+            <div class = "string-call-now">Звоните прямо сейчас!</div>
+            <p class="thin new-thin">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
         </div>
-        <div class="col-md-4 col-lg-3">
-            <a href="order.html" class="btn btn-default" onclick="_gaq.push(['_trackEvent', 'click', 'footer', 'send-request']);">Отправить запрос</a>
+        <div class="col-md-12 col-lg-3">
+            <a href="order.html" class="btn btn-default" onclick="ga('send', 'event', 'click', 'footer', 'send-request', {'nonInteraction': 1});">Отправить запрос</a>
         </div>
     </div>
 </section>
+
 
 <footer id="footer" class="footer inverted">
     <div class="container">
@@ -436,7 +429,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <span class="icon icon-chat-messages-14"></span>
-                        <a href="mailto:info@megusta.com.ua" onclick="_gaq.push(['_trackEvent', 'e-mail', 'footer',]);">info@megusta.com.ua</a>
+                        <a href="mailto:info@megusta.com.ua" onclick="ga('send', 'event', 'e-mail', 'footer', {'nonInteraction': 1});">info@megusta.com.ua</a>
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-34"></span>

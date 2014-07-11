@@ -72,7 +72,7 @@
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
                         <li><a href="tel:+380(44)222-62-12" class="phone-in-heder" >тел: (044) 222-62-12</a></li>
-                        <li class="featured"><a href="order.html"  onclick="_gaq.push(['_trackEvent', 'click', 'header', 'zakazat']);">Заказать</a></li>
+                        <li class="featured"><a href="order.html"      onclick="ga('send', 'event', 'click', 'header', 'zakazat', {'nonInteraction': 1});">Заказать</a></li>
                     </ul>
                 </div>
             </div>
@@ -205,16 +205,14 @@
 </section>
 
 <section id="longblock" class="light long-block">
-    <div class="container">
-        <div class="col-md-8 col-lg-9">
-            <article class="pull-left">
-                <h2>Свяжитесь с нами прямо сейчас!</h2>
 
-                <p class="thin">Мы всегда готовы предоставить бесплатную квалифицированную консультацию.</p>
-            </article>
+    <div class="container">
+        <div class="col-md-12 col-lg-9">
+            <div class = "string-call-now">Звоните прямо сейчас!</div>
+            <p class="thin new-thin">Кстати еще мы делаем скидки и даем бонусы нашим клиентам</p>
         </div>
-        <div class="col-md-4 col-lg-3">
-            <a href="order.html" class="btn btn-default" onclick="_gaq.push(['_trackEvent', 'click', 'footer', 'send-request']);">Отправить запрос</a>
+        <div class="col-md-12 col-lg-3">
+            <a href="order.html" class="btn btn-default" onclick="ga('send', 'event', 'click', 'footer', 'send-request', {'nonInteraction': 1});">Отправить запрос</a>
         </div>
     </div>
 </section>
@@ -242,7 +240,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <span class="icon icon-chat-messages-14"></span>
-                        <a href="mailto:info@megusta.com.ua">info@megusta.com.ua</a>
+                        <a href="mailto:info@megusta.com.ua" onclick="ga('send', 'event', 'e-mail', 'footer', {'nonInteraction': 1});">info@megusta.com.ua</a>
                     </li>
                     <li>
                         <span class="icon icon-seo-icons-34"></span>
