@@ -703,9 +703,9 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 
 	.package-column { margin-bottom: 30px; }
 	
-	#team .thumb-wrapper .socials { top: 70%; padding:0; opacity:1; }
-	#team .thumb-wrapper .socials a { margin: 0px 10px; font-size: 30px; color:#fe6760; }
-	/*#team .thumb-wrapper .overlay { background: transparent; }*/
+	#team .thumb-wrapper .socials { top: 145%; padding:0; opacity:1; }
+	#team .thumb-wrapper .socials a { margin: 0px 10px; font-size: 20px; color:#fe6760; }
+	#team .thumb-wrapper .overlay { background: transparent; }
 		
     .footer-content > div { margin-bottom: 30px; }
     .footer-content > div:last-child { margin-bottom: 0; }
@@ -764,8 +764,8 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 	#subscribe input { margin-right: 0px; }
 	
 	#team .member { padding-bottom: 50px; }
-	#team .thumb-wrapper .socials { top: 70%; padding:0; opacity:1; }
-	#team .thumb-wrapper .socials a { margin: 0px 5px; font-size: 30px; color:#fe6760; }
+	#team .thumb-wrapper .socials { top: 150%; padding:0; opacity:1; }
+	#team .thumb-wrapper .socials a { margin: 0px 5px; font-size: 17px; color:#fe6760; }
 	#team .h7 { margin-top: 7px; }
 	
 	.form .form-group { margin-bottom: 15px; }
@@ -803,10 +803,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 
 /* Tablet device Landscape 1024px and 768px */
 @media (max-width: 1024px) and (min-width: 768px) {
-    #team .thumb-wrapper .overlay {
-        background: rgba(26, 198, 255, 0.5);
-        top: 0px;
-    }
+
 	p { font-size:14px; line-height:25px; }
     .navigation-header .navigation-brand { margin-right: 0; width: 100%; float: none; margin-bottom: -10px; margin-top:0;}
     /*.navigation-header .navigation-brand, .fixmenu .navigation-brand { display:none !important; }*/
@@ -880,9 +877,9 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 	.package-column .package-price .price { font-size:80px; }
 	.switch p { padding: 0px 0px 0px 80px; font-size: 10pt; }
 
-	#team .thumb-wrapper .socials { top: 70%; padding:0; opacity:1; }
-	#team .thumb-wrapper .socials a { margin: 0px 10px; font-size: 30px; color:#fe6760; }
-	/*#team .thumb-wrapper .overlay { background: transparent; }*/
+	#team .thumb-wrapper .socials { top: 145%; padding:0; opacity:1; }
+	#team .thumb-wrapper .socials a { margin: 0px 10px; font-size: 20px; color:#fe6760; }
+	#team .thumb-wrapper .overlay { background: transparent; }
 	
 	#response { margin-left: 40%; }
 	
@@ -894,13 +891,11 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 /* Tablet device Portrait 1024px and 768px */
 @media (max-width: 1024px) and (orientation:portrait) {
 
-    #team .thumb-wrapper .socials a { margin: 0px 10px; font-size: 30px; color:#fe6760; }
-
     .custom-width-index{ width: 100%;}
     .thin{padding-top: 40px !important;}
     p { font-size:14px; line-height:25px; }
     .btn { padding: 15px 35px; }
-    #team .thumb-wrapper .socials { top: 70%; }
+    #team .thumb-wrapper .socials { top: 152%; }
     .footer .list-inline li .icon { font-size: 35px; }
     .register-version .signup-wrapper { padding-left: 0px; padding-right: 0px; }
 	
@@ -1059,10 +1054,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 }
 .new-thin{
     text-align: center;
+    padding-top: 20px;
 
 }
-
-.custom-btn{margin-top: 66px !important;}
-
-
 /*my style*/
